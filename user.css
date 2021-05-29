@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #368A7B;
+    font-family: sans-serif;
+}
+.user-container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5rem;
+    width:350px;
+    height: 600px;
+    background-color: rgba(255, 255, 255,0.4);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    /* box-shadow: 1px 1px 12px rgba(255, 255, 255,0.4); */
+    display: flex;
+    justify-content: center;
+}
+form{
+    position: absolute;
+    top: 2rem;
+    width: 300px;
+    height: 60px;
+    background-color: #0B4754;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border:none;
+    outline: none;
+    width: 100%;
+    background-color: #0B4754;
+    /* border-radius: 10px; */
+    padding-left: 1rem;
+    font-size: 18px;
+}
+button{
+    border: none;
+    outline: none;
+    width: 3rem;
+}
+.output{
+    position: absolute;
+    bottom: -35rem;
+    left: 50%;
+    left: 4rem;
+    font-size: 12px;
+    background-color: #0B4754;
+    color: white;
+    border-radius: 6px;
+    padding: 0.7rem;
+    margin: 2rem;
+}
+.output a{
+    color: white;
+    text-decoration: none;
+}
+.box{
+    position: absolute;
+    top: 7rem;
+    width: 300px;
+    height: 450px;
+    background-color: #0B4754;
+    border-radius: 6px;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+}
+.user-name{
+    position: relative;
+    background-color: #0d3038;
+    padding: 0.6rem;
+    margin: 1.4rem;
+    border-radius: 6px;
+    color: white;
+}
+.con{
+    margin-left: 2px;
+    margin-right: 1rem;
+}
+.hover{
+    position: absolute;
+    right: -1rem;
+    bottom: -0.8rem;
+    font-size: 8px;
+    background-color: rgba(255, 255, 255,0.5);
+    font-family: monospace;
+    border-radius: 4px;
+    color: black;
+    padding: 3px;
+    text-transform: uppercase;
+    display: none;
+}
+.user-name:hover .hover{
+    display: block;
+}
+.moto{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40%;
+    width: 500px;
+    font-size: 2rem;
+    color: #0e3a42;
+}
+.color{
+    color: white;
+}
+.moto h3{
+    margin-top: -2rem;
+    color: beige;
+}
+.tracking{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 0;
+    bottom: 0;
+}
+.bars{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+.logout{
+    position: absolute;
+    right: 1.6rem;
+    top: 3.4rem;
+    display: none;
+}
+.logout ul{
+    list-style: none;
+    background-color: #0B4754;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 10px;
+}
+.logout ul li{
+    line-height: 2rem;
+}
+.logout ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logout li a:hover{
+    color: #368A7B;
+}
+.display{
+    display: block;
+}
+/* important note */
+.note{
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+    border-radius: 8px;
+    color: rgb(136, 136, 41);
+    display: none;
+}
+.note p{
+    margin: 1rem;
+}
+.note span{
+    text-align: right;
+}
+.times{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+.times:hover{
+    color: black;
+}

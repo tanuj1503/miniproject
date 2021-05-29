@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hospital-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #368A7B;
+}
+.glass{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 330px;
+    height: 90%;
+    background-color: rgba(255, 255, 255,0.4);
+    border-radius: 8px;
+}
+.search{
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+form{
+    display: flex;
+}
+input[type="text"]{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 8px 0px 0px 8px;
+    width: 180px;
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #0d5f72;
+    color: white;
+}
+.list{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 78%;
+    border-radius: 8px;
+    background-color: #0d5f72;
+    overflow-y: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    background-color: #114a57;
+    padding: 0.7rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+.flex i{
+    position: absolute;
+    right: 1.3rem;
+    margin: 0.6rem;
+    cursor: pointer;
+    padding: 5px;
+}
+.flex h3{
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+}
+.flex a{
+    text-decoration: none;
+    color: white;
+}
+.flex i span{
+    position: absolute;
+    top: 2rem;
+    left: -2.4rem;
+    width: 70px;
+    font-size: 8px;
+    background-color: white;
+    padding: 2px;
+    color: black;
+    border-radius: 4px;
+    display: none;
+}
+.flex i:hover span{
+    display: block;
+}
+
+.hospital-list{
+    position: absolute;
+    top: -1rem;
+    left: 20rem;
+    width: 150px;
+    background-color: #114a57;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: white;
+    font-family: sans-serif;
+}
+.help{
+    position: absolute;
+    top: 12%;
+    right: 28%;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 6rem;
+    color: #114a57;
+}
+.always{
+    position: absolute;
+    top: 67%;
+    right: 27.2%;
+    width: 270px;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 1rem;
+    color: #114a57;
+    text-align: center;
+}
+.always i{
+    margin-left: 0.6rem;
+    font-size: 1.6rem;
+}
+.nagpur{
+    position: absolute;
+    top: 77%;
+    right: 27.3%;
+    width: 300px;
+    font-family: sans-serif;
+    color: white;
+}
+.bar{
+    position: absolute;
+    top: 2rem;
+    right: 1.6rem;
+    cursor: pointer;
+}
+.logout{
+    position: absolute;
+    right: 1.6rem;
+    top: 3.4rem;
+    display: none;
+    color: black;
+}
+.logout ul{
+    list-style: none;
+    background-color: #0B4754;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 10px;
+}
+.logout ul li{
+    line-height: 2rem;
+}
+.logout ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logout li a:hover{
+    color: #368A7B;
+} 
+
+.display{
+    display: block;
+}
+img{
+    position: fixed;
+    bottom: -2rem;
+    right: -1.6rem;
+    width: 300px;
+    height: 300px;
+}
+/* important note */
+.note{
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+    border-radius: 8px;
+    color: rgb(136, 136, 41);
+    display: none;
+}
+.note p{
+    margin: 1rem;
+}
+.note span{
+    text-align: right;
+}
+.times{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+.times:hover{
+    color: black;
+}

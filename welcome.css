@@ -1,0 +1,445 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #368A7B; */
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    position: absolute;
+    background-image: url('./images/curve2.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+.logo img{
+    position: absolute;
+    width: 280px;
+    margin-left: -3rem;
+    margin-top: -5.8rem;
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+}
+.tabs ul{
+    list-style: none;
+    display: flex;
+    margin-top: 1.6rem;
+}
+.tabs ul li{
+    margin: 0.5rem;
+    font-size: 16px;
+    border: 2px solid #368A7B;
+    padding: 0.3rem;
+}
+.tabs ul li a{
+    text-decoration: none;
+    color: black;
+}
+.tabs .active{
+    border-bottom: 2px solid yellow;
+}
+.tabs .lines:hover{
+    border-bottom: 2px solid yellow;
+}
+.user-name{
+    position: absolute;
+    right: 4rem;
+    top: 1rem;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+.bar{
+    position: absolute;
+    right: 2rem;
+    top: 1.9rem;
+}
+
+.moto{
+    position: absolute;
+    margin-top:6%;
+    width: 800px;
+    margin-left: 2rem;
+}
+.moto h3{
+    font-size: 3.6rem;
+}
+.para{
+    position: absolute;
+    margin-top: 20%;
+    width: 450px;
+    margin-left: 2rem;
+    line-height: 1.4rem;
+}
+.para p{
+    font-size: 22px;
+}
+.btns{
+    position: absolute;
+    margin-top: 34%;
+    left: 2rem;
+    display: flex;
+}
+.btns p{
+    margin-right: 2rem;
+    padding: 9px 2.4rem;
+    border-radius: 8px;
+}
+.btns p a{
+    color: black;
+    text-decoration: none;
+}
+.explore{
+    position: relative;
+    background-color:#77BFB7 ;
+}
+.emergency{
+    background-color: brown;
+}
+/* .curve{
+    position: relative;
+    margin-top: -9%;
+    z-index: -1;
+    background-color: red;
+} */
+.png{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    right: 5rem;
+    bottom: 0rem;
+}
+.logout{
+    position: absolute;
+    right: 1.6rem;
+    top: 3.4rem;
+    display: none;
+}
+.logout ul{
+    list-style: none;
+    background-color: #0B4754;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 10px;
+}
+.logout ul li{
+    line-height: 2rem;
+}
+.logout ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.logout li a:hover{
+    color: #368A7B;
+}
+.display{
+    display: block;
+}
+
+/*middle page*/
+.middlepage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #368A7B;
+    top: 87.3%;
+}
+.info{
+    position: absolute;
+    background-color: #0B4754;
+    width: 550px;
+    height: 150px;
+    right: 0;
+}
+.info h1{
+    position: absolute;
+    width: 100px;
+    right: 8.6rem;
+    color: #5922CC;
+    font-size: 40px;
+}
+.info p{
+    width: 230px;
+    line-height: 1.8rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 22px;
+    color: white;;
+}
+.image{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.image img{
+    width: 550px;
+    height: 550px;
+}
+.hands{
+    position: absolute;
+    bottom:0rem;
+    left: -27rem;
+}
+.hands img{
+    height: 550px;
+}
+.about{
+    font-family: sans-serif;
+    position: absolute;
+    top:20%;
+    left:29%;
+    transform: translateX(-30%);
+}
+.about h1{
+    font-family: sans-serif;
+    width: 700px;
+    font-size: 6.3rem;
+    color: #0B4754;
+}
+
+/*unite page*/
+.unite{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #368A7B;
+    top: 87.8%;
+}
+.unite h3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 26px;
+    color: white;
+}
+.box-one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 84%;
+    height: 520px;
+    background-color: #C4C4C4;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+.box-two{
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background-color: #368A7B;
+}
+.corona2{
+    position: absolute;
+    left: 8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
+.paragraph{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.paragraph pre{
+    font-size: 16px;
+}
+
+/* card */
+.team{
+    position: absolute;
+    top: -1rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.morale{
+    position: absolute;
+    top: 0.4rem;
+    border: 4px solid white;
+    border-left: none;
+    border-right: none;
+    margin: 2rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.card-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    background: #368A7B;
+    top: 88%;
+}
+.card{
+    width: 250px;
+    height: 480px;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 210px 210px 80px ;
+    grid-template-areas: "image" "text";
+   
+    font-family: Roboto;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.card-image1{
+    grid-area: image;
+    background: url("./images/tanuj.jpg");
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-size: cover;
+    height: 255px;
+}
+.card-image2{
+    grid-area: image;
+    background: url("./images/Tush.jpg");
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-size: cover;
+    height: 255px;
+}
+.card-image3{
+    grid-area: image;
+    background: url("./images/suyash.jpg");
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-size: cover;
+    height: 255px;
+}
+.card-image4{
+    grid-area: image;
+    background: url("./images/Saurav.jpg");
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-size: cover;
+    height: 255px;
+}
+.card-image5{
+    grid-area: image;
+    background: url("./images/Apurv.jpg");
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-size: cover;
+    height: 255px;
+}
+.card-text{
+    position: relative;
+    grid-area: text;
+    margin: 2rem;
+}
+.lorem-text{
+    width: 220px;
+    text-align: left;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.719);
+}
+.icons{
+    position: absolute;
+    bottom: -5rem;
+    right: -1rem;
+}
+.fa{
+    color: black;
+    margin: 0.2rem;
+}
+
+/*feedback form*/
+.box{
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 100%;
+    top: 88.6%;
+}
+.caption{
+    display: flex;
+}
+.imgbx img{
+    width: 350px;
+    height: 350px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+}
+
+.first-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.introduction{
+    width: 400px;
+    text-align: center;
+}
+
+.second-box{
+    position: relative;
+    background-color: #368A7B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 50%;
+}
+.feedback{
+    position: absolute;
+    top: -1rem;
+    left: 10rem;
+    color: #0B4754;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+form{
+    width: 350px;
+    background-color: #0B4754;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 8px;
+}
+textarea{
+    width: 300px;
+}
+input{
+    margin: 0.6rem;
+    border: none;
+    outline: none;
+    padding: 0.9rem 1rem;
+    border-radius: 6px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color: rgb(1, 156, 27);
+    color: white;
+    font-weight: 700;
+}
+span{
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 1px;
+}
+.para1{
+    font-family: sans-serif;
+}
+legend{
+    color: white;
+}

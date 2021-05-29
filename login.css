@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #368A7B;
+    font-family: sans-serif;
+}
+.logo{
+    position: absolute;
+    width: 200px;
+    left: 0;
+    top: -1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+   width: 200px;
+   margin: 0.6rem;
+   padding: 0.8rem 1rem;
+   border: 0.1px solid rgba(0, 0, 0,0.4);
+   border-radius: 6px;
+   text-align: left;
+}
+.login-container{
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    padding:2rem 1rem 1rem 1rem;
+    border-radius: 6px;
+}
+.btn{
+    width: 235px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #368A7B;
+}
+h3{
+    background-color: rgb(40, 161, 29);
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    text-align: center;
+}
+h3 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.about{
+    position: absolute;
+    top:20%;
+    left:5%;
+}
+.about h1{
+    width: 500px;
+    font-size: 4rem;
+    color: #0B4754;
+}
+span{
+    color: white;
+}
+p{
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}

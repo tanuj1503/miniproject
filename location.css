@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0B4754;
+    display:flex;
+    justify-content: center;
+}
+form{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    background-color: #0d3038;
+    padding:2rem;
+    top:30%;
+    transform: translateY(-50%); 
+    border-radius:8px; 
+    box-shadow: inset 2px 2px 8px rgba(255,255,255,0.3), inset -2px -2px 8px rgba(0,0,0,0.4);
+}
+input{
+    padding: 0.6rem 2rem;
+    outline:none;
+    margin:1rem;
+    font-weight:600;
+    color: black;
+}
+input[type="button"]{
+    background-color: green;
+    color:white;
+    margin:0;
+    user-select: none;
+    border: none;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: rgb(75, 235, 75);
+}
+
+.landscape{
+    position: absolute;
+    width: 380px;
+    height: 330px;
+    right: 0;
+    bottom: 0;
+}
